@@ -1,12 +1,15 @@
-body {
+#stage-border {
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     /* background: linear-gradient(white, gray); */
-    height: 100vh;
+    display: block;
+    margin: 50px auto;
+    height: 50vh;
+    width: 50vh;
     color: #e98a1d;
-
+    border: 3px solid #e98a1d;
 }
 
 h1 {
